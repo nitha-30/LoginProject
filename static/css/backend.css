@@ -1,0 +1,15 @@
+#file_upload{
+    display: none;
+}
+
+.image_upload{
+    display: none;
+}
+
+.video-upload{
+    display: none;
+}
+
+.errorBorder{
+    border: 1px solid red;
+}

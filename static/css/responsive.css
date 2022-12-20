@@ -1,0 +1,50 @@
+@media (min-width: 992px) {
+    .sidebar.offcanvas {
+        transform: unset;
+        visibility: visible;
+        position: sticky;
+        top: 55px;
+        height: calc(100vh - 55px);
+    }
+
+    .input-field.first-column label {
+        min-width: 152px;
+    }
+    
+    .input-field.second-column label {
+        min-width: 65px;
+    }
+}
+
+@media (992px <= width <= 1199.98px) {
+    .sidebar.offcanvas,
+    .top-menu .navbar .navbar-brand {
+        width: 190px;
+    }
+
+    .sidebar .navbar {
+        padding: 18px 24px 0 12px;
+    }
+
+    .top-menu .navbar .navbar-brand {
+        padding-left: 24px;
+    }
+
+    .tab-navigation .nav-pills .nav-item .nav-link {
+        min-width: 200px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .top-menu {
+        background: #FFECDE;
+    }
+
+    .sidebar .navbar {
+        padding-top: 0;
+    }
+
+    .tab-navigation .nav-pills .nav-item .nav-link {
+        min-width: 185px;
+    }
+}
